@@ -1,0 +1,185 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#fiesta {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+}
+
+#heading {
+  font-family: 'Electrolize','Open Sans', sans-serif;
+}
+/* Styling For Pictures & Links*/
+.jumbo1, .jumbo2, .jumbo3 {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  display: inline-block;
+  width: 100%;
+}
+.jumbo1, .jumbo2 {
+  background-size: cover;
+  height: 40vh;
+  margin-right: 3%;
+}
+.jumbo1 {
+  background-image: url('Ohio.jpg');
+}
+.jumbo2 {
+  background-image: url('clemson.jpg');
+}
+.jumbo3 {
+  background-image: url('phoenixStadium.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+  padding: 0;
+}
+
+#caption1 {
+  background-color: darkred;
+}
+#caption2 {
+  background-color: rebeccapurple;
+}
+#caption3 {
+  background-color: lightgray;
+  opacity: .9;
+}
+#caption4 {
+  background-color: white;
+}
+
+#caption3:hover {
+  background-color: grey;
+}
+
+#caption1:hover, #caption2:hover {
+  box-shadow: 3px 4px 4px black;
+}
+
+#stadium:link, #stadium:visited {
+  color: #551A8B;
+}
+
+/*This is where Weird Styling begins*/
+.leftcontent a {
+  color:white;
+}
+.rightcontent a {
+  color: darkorange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainHeader nav {
+  background-color: #F33D49;
+  height: 40px;
+}
+
+.mainHeader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+  float: left;
+  display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+  color: #FFF;
+  font-family: "Russo One";
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+  background-color: #FCD01C;
+  text-shadow: none;
+}
+
+.content {
+  width: 90%;
+  float: left;
+  display: inline;
+  background-color: lightgray;
+  padding: 3% 5%;
+}
+
+.leftcontent, .rightcontent {
+  float: left;
+  width: 47%;
+  height: 50%;
+  background-color: #FFF;
+  padding: 1% 1%;
+  box-shadow: 3px 3px 6px gray;
+  text-align: center;
+}
+
+.middlecontent {
+  float: left;
+  width: 100%;
+  height: 50%;
+  background-color: #FFF;
+  padding: 0% 0%;
+  box-shadow: 3px 3px 6px gray;
+  text-align: center;
+}
+
+.leftcontent {
+  margin: 1.5% 1.65% 1% 0%;
+}
+
+.rightcontent {
+  margin: 1.5% 0% 1.65% 0%;
+}
+
+.topcontent {
+  background-color: lightgray;
+  padding: 3% 5%;
+  margin-top: 2% ;
+}
+
+.teaminfo {
+  float: left;
+  width: 47%;
+  height: 50%;
+  background-color: darkred;
+  padding: 1% 1%;
+  box-shadow: 3px 3px 6px gray;
+  text-align: center;
+  margin: 1.5% 1.65% 1% 0%;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+
+.teaminfo h3, .teaminfo2 h3 {
+  color:black;
+}
+
+.teaminfo2 h3 {
+  color:darkorange;
+}
+
+.teaminfo2 {
+  float: left;
+  width: 47%;
+  height: 50%;
+  background-color: #551A8B;
+  padding: 1% 1%;
+  box-shadow: 3px 3px 6px gray;
+  text-align: center;
+  margin: 1.5% 1.65% 1% 0%;
+  font-family: 'Russo One', sans-serif;
+  color: darkorange;
+  margin: 1.5% 0% 1.65% 0%;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teams | PlayStation Fiesta Bowl</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Electrolize|Roboto+Mono:700|Russo+One" rel="stylesheet">
+    <link rel="icon" href="https://fiestabowl.org/wp-content/uploads/2015/08/cropped-logo-fiestabowl-sunburst-large-32x32.png" sizes="32x32" />
+
+  </head>
+  <body>
+    <div id="fiesta"> <!-- Heading w/pictures-->
+      <img src="chickfila.png" width="14%">
+      <img src="drpepper.png" width="14%">
+      <img src="fiesta.png" width="40%">
+      <img src="ford.png" width="14%">
+      <img src="cardinals.png" width="14%">
+    </div> <!-- End of heading -->
+
+    <header class="mainHeader"> <!-- Navbar -->
+      <nav><ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="area.html">The Area</a></li>
+        </ul></nav>
+    </header> <!-- End of Navbar-->
+    
+    <div width="90%">
+    <!-- Start of Carousel -->
+      <h2 class="w3-center">Playstation Fiesta Bowl</h2>
+
+      <div class="w3-content w3-section" style="width:90%;">
+        <img class="mySlides" src="clemson.jpg" style="width:100%;">
+        <img class="mySlides" src="Ohio.jpg" style="width: 100%;">
+        <img class="mySlides" src="Glendale.jpg" style="width: 100%;">
+      </div>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+      </script>
+    <!-- End of Carousel -->
+    </div>
+  </body>
+</html>
+    
